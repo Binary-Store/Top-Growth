@@ -5,11 +5,26 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>top growth - blog</title>
-    <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="index, follow" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.topgrowth.in/assets/images/favicon_ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://www.topgrowth.in/assets/images/favicon_ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.topgrowth.in/assets/images/favicon_ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.topgrowth.in/assets/images/favicon_ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.topgrowth.in/assets/images/favicon_ico/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://www.topgrowth.in/assets/images/favicon_ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css" />
@@ -91,7 +106,7 @@
                                     <div class="hamburger d-block d-lg-none">
                                         <!-- Mobile Menu Hambarger Action Button Start -->
                                         <a class="header-action-btn header-action-btn-menu hamburger_button d-flex"
-                                            href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
+                                            href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -406,9 +421,9 @@ export default App;
                         <!-- Section Title End  -->
                         <div class="subcription-form-wrapper wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                             <!-- Subscription Form Start -->
-                            <form id="subForm" class="subscribe-form">
-                                <input class="email" type="email" placeholder="Your email here" name="email">
-                                <button class="button" type="submit" onclick="sendEmail(event)"
+                            <form id="subForm" onSubmit="sendEmail(event)" class="subscribe-form">
+                                <input class="email" type="email" placeholder="Your email here" name="email" required>
+                                <button class="button" type="submit"
                                     id="subBtn">Subscribe</button>
                             </form>
                             <!-- Subscription Form End -->
@@ -439,11 +454,10 @@ export default App;
                             </a>
                         </div>
                         <ul class="footer-widget-list-icon">
-                            <li><i class="fas fa-map-marker-alt"></i> <span> Sindhu Bhavan Road , Ahmedabad
-                                    Gujarat , India.</span></li>
-                            <li><i class="fas fa-envelope"></i> <span>topgrowthcontact@gmail.com</span> </li>
-                            <li><i class="fas fa-phone"></i><span>+91 9327481742</span> </li>
-                            <li><i class="fas fa-phone"></i><span>+91 9925913386</span> </li>
+                            <li><i class="fas fa-map-marker-alt"></i> <span>Top growth It solution Outreach Center Silver Mount, 3rd Floor Opp. GB Complex, Pedak Road,Rajkot-360001 Gujarat - India</span></li>
+<a href="mailto:topgrowthcontact@gmail.com">                            <li><i class="fas fa-envelope"></i> <span>topgrowthcontact@gmail.com</span> </li></a>
+                            <a href="tel:+919327481742"><li><i class="fas fa-phone"></i><span>+91 9327481742</span> </li></a>
+                            <a href="tel:+917096412310"><li><i class="fas fa-phone"></i><span>+91 7096412310</span> </li></a>
                         </ul>
                         <ul class="social-icon d-flex flex-start">
                             <li>
